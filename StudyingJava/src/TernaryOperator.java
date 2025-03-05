@@ -25,6 +25,9 @@ public class TernaryOperator {
 
         String timeOdDay = (hours < 12) ? "A.M" : "P.M";
 
+
+
+
         System.out.println(timeOdDay);
 
     }
