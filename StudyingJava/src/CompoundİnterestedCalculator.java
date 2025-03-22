@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class CompoundİnterestedCalculator {
     public static void main(String[] args) {
 
-
+        //FAİZ HESAPLAMA
         Scanner scanner = new Scanner(System.in);
 
         double principal;
@@ -16,7 +16,7 @@ public class CompoundİnterestedCalculator {
         System.out.print("Enter the principal amount; ");
         principal = scanner.nextDouble();
 
-        System.out.print("Enter the internet rate (in%):  ");
+        System.out.print("Enter the interest rate (in%):  ");
         rate = scanner.nextDouble()/ 100;
 
         System.out.print("enter the # of times compounded per year: ");

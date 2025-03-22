@@ -30,5 +30,7 @@ public class EnhancedSwitches {
 
                 default -> System.out.println(day +"is not a day");
         }
+
+        scanner.close();
     }
 }
