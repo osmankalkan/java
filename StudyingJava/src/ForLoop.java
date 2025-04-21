@@ -1,5 +1,9 @@
+import java.util.Scanner;
+
 public class ForLoop {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException{
+
+        Scanner scanner = new Scanner(System.in);
 
 
         /*
@@ -34,7 +38,7 @@ public class ForLoop {
             System.out.println(i);
         }
 
-         */
+
 
         for (int i = 1 ; i<= 10 ; i++){
             if (i == 5){
@@ -42,6 +46,22 @@ public class ForLoop {
             }
             System.out.println(i);
         }
+
+         */
+
+        int start = 10;
+
+        for(int i = start; i > 0 ; i--) {
+            System.out.println(i);
+            Thread.sleep(1000);
+
+        }
+
+        System.out.println("Irmağı cok seviyorumm💜!");
+
+
+
+
 
 
     }
